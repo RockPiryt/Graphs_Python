@@ -55,7 +55,12 @@ def get_matrix():
     matrix = []
     rows = matrix_input.strip().split("\n")
     for row in rows:
-        matrix.append(list(map(int, row.split())))
+        row_elements = row.split()  #  get individual elements
+        row_int = [] 
+        for element in row_elements:
+            row_int.append(int(element))  
+        matrix.append(row_int)  # Append the list of integers to the matrix
+
     
     return matrix
 
