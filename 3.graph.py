@@ -1,3 +1,25 @@
+'''Zadanie 5 (0.1 pkt)
+
+Napisz program, który dla danego ciągu liczb 
+S, utworzy graf, którego wierzchołkami będą liczby ze zbioru S, natomiast krawędziami zbiór par 
+(u,v) takich że ∣u−v∣∈S. Wyświetl macierz sąsiedztwa tego grafu.
+
+Uwaga. Ciągi ze zbioru S mogą być nie posortowane. 
+Nie zmieniajmy kolejności występowania wierzchołków. 
+Czyli traktujemy jako pierwszy wierzchołek, ten który występuje pierwszy w ciągu liczb S.
+
+Sample Input:
+
+2 3 4 7 11 13
+Sample Output:
+
+0 0 1 0 0 1
+0 0 0 1 0 0
+1 0 0 1 1 0
+0 1 1 0 1 0
+0 0 1 1 0 1
+1 0 0 0 1 0'''
+
 # put your python code here
 def is_in_set(value, S):
     """Sprawdza, czy dana wartość znajduje się w zbiorze S."""

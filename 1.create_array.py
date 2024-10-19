@@ -1,3 +1,19 @@
+'''Zadanie 3 (0.1 pkt)
+
+Napisz program, które pobierze liczbę naturalną n, 
+a następnie wyświetli macierz sąsiedztwa wypełnione zerami rozmiaru  n×n. 
+W przypadku podania złej liczby program ma wypisać komunikat BŁĄD oraz zakończyć działanie.
+
+Sample Input:
+
+4
+Sample Output:
+
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0'''
+
 # Asking the user for the dimension of the matrix
 #print("Insert size of array: ")
 n = int(input())
